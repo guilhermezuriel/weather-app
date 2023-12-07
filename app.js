@@ -1,7 +1,7 @@
 //HTTP Requests
 const request = require('postman-request');
 
-/* Request Example
+//Request Example
 request('https://www.google.com', function (error, response, body) {
   const responseobj = {
     error: error,
@@ -10,4 +10,3 @@ request('https://www.google.com', function (error, response, body) {
   };
   console.log(responseobj);
 });
-*/
